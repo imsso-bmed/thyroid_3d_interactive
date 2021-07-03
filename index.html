@@ -8,35 +8,29 @@
     <style>
       iframe{
         width: 70%;
-        text-align: center;
+    
       }
     </style>
 
     </head>
     
     <body>
-
-      <iframe allowfullscreen src="./webplayer/webplayer.html?load=../thyroid_3d_interactive.json&autorotate" id="3dPlayer">
+<p align="center">
+      <iframe width="800" height="500" allowfullscreen src="./webplayer/webplayer.html?load=../thyroid_3d_interactive.json&autorotate">
               </iframe> 
-
+            </p>
  
           
       <p align="middle">This is 3d interactive model for learning thyroid</p>
 
       
-          
-      <iframe src="https://www.youtube.com/embed/bCa-HSyRyJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      <p align="center">
+      <iframe width="800" height="500" src="https://www.youtube.com/embed/bCa-HSyRyJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
+      </p>
    
  
-    <script>
-      //Selecting the iframe element
-      var iframe = document.getElementById("3dPlayer");
-//adjusting the iframe height onload event
-      iframe.onload = function(){
-        iframe.style.height = iframe.contentWindow.document.body.scrollHeight+'px';
-      }
-    </script>
+    
 
     </body>
     </html>
