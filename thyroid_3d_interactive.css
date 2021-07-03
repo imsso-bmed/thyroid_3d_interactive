@@ -1,4 +1,10 @@
 
+#wrap{
+  display: grid;
+  place-items: center;
+  min-height:100vh;
+}
+
 *:active {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
